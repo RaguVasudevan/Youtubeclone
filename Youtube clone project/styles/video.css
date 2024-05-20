@@ -1,0 +1,81 @@
+
+           
+            .Thumbnails {
+                width: 100%;
+                
+                margin-bottom: 10px;    
+            }
+            .thumbnails-row{
+                margin-bottom: 12px;
+                position: relative;
+
+            }
+           
+          
+            .video-info{
+                display:inline-block;
+            }
+            .channel-picture{
+                display: inline-block;
+                width: 40px;
+                vertical-align: top;
+                border-radius: 40px;
+            }
+            .video-info{
+                display: inline-block;
+                width: 200px;
+            }
+            .profile-picture{
+                width: 100%;
+                border-radius: 40px;
+                
+            }
+            .video-title{
+                margin-top: 0;
+                font-size: 15px;
+                font-weight:500;
+                line-height: 20px;
+                margin-bottom: 12px;
+
+            }
+            .video-author,.video-stats{
+                font-size: 12px;
+                color: rgb(96, 92,97);
+
+            }
+            .video-author{
+                margin-bottom: 6px;
+            }
+            .video-grid{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                column-gap: 16px;
+                row-gap: 40px;
+
+
+            }
+            @media(max-width:750px){
+                .video-grid{
+                    grid-template-columns: 1fr 1fr;
+                }
+            }
+            @media(min-width:600px){
+                .video-grid{
+                    grid-template-columns: 1fr 1fr 1fr 1fr;
+                }
+            }
+            
+            .video-time{
+                font-family: Arial;
+                font-size: 12px;
+                font-weight: 500;
+                padding-left: 3px;
+                padding-right: 3px;
+                padding-bottom: 4px;
+                padding-top: 4px;
+                background-color: black;
+                color: white;
+                position: absolute;
+                bottom: 25px;
+                right: 10px;
+            }
